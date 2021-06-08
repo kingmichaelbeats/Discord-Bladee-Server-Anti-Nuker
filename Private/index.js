@@ -89,7 +89,7 @@ const Title = String.raw`
                             ██████╔╝███████╗██║  ██║██████╔╝███████╗███████╗██╗
                             ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝╚═╝
                                                    
-                                  Anti Nuke | 7teen | Author: ${author}
+                                  Anti Nuke | kingmichaelbeats | Author: ${author}
 
 `;
 
@@ -112,9 +112,9 @@ client.on("ready", () => {
         let randomsieActivity = ActiOptions[Math.floor(Math.random() * ActiOptions.length)];
         // Activity
         client.user.setActivity({
-            name: `${userCount} users protected.`,
+            name: `.gg/racks.`,
             type: randomsieActivity,
-            url: "https://www.twitch.tv/ayoohennio"
+            url: "https://www.twitch.tv/kingmichaelbeats"
         });
 
     }, 10000); // Change 10 Every Second(s)
